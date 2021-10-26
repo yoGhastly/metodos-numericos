@@ -1,0 +1,17 @@
+name: metodos
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - console_shortcut
+  - jupyterlab
+  - numpy
+  - scipy
+  - sympy
+  - matplotlib
+  - nodejs
+  - pip:
+    - ipympl
+    - ipywidgets
+    - jupyterlab
+    - widgetsnbextension
