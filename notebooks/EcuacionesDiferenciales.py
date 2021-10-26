@@ -11,7 +11,7 @@ from IPython import get_ipython
 # ## ¿Cuál es su solución?
 
 # %%
-get_ipython().run_line_magic('matplotlib', 'widget')
+# get_ipython().run_line_magic('matplotlib', 'widget')
 import numpy as np
 from numpy.linalg import norm
 import sympy as sp

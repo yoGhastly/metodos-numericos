@@ -27,7 +27,7 @@ from IPython import get_ipython
 # 
 
 # %%
-get_ipython().run_line_magic('matplotlib', 'widget')
+# get_ipython().run_line_magic('matplotlib', 'widget')
 import numpy as np
 import sympy as sp
 from IPython.display import Math,display

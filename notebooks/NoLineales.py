@@ -26,7 +26,7 @@ from IPython import get_ipython
 # 
 
 # %%
-get_ipython().run_line_magic('matplotlib', 'widget')
+# get_ipython().run_line_magic('matplotlib', 'widget')
 import numpy as np
 from numpy.linalg import norm
 import sympy as sp
@@ -313,9 +313,9 @@ newton_raphson(fun_np_nwt,fun_prime_np_nwt,x_0)
 
 def regula_falsi(f,a,b,e=0.00001):
     if f(a) * f(b) >=0:
-print("Los valores seleccionados de a y b no son válidos para el método")
+        print("Los valores seleccionados de a y b no son válidos para el método")
     else:
-max_iter = 100
+        max_iter = 100
 error = 1
 x_start = a - (b-a) * f(a) / (f(b)-f(a))
 a = x_start

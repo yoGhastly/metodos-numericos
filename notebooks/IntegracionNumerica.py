@@ -21,7 +21,7 @@ from IPython import get_ipython
 # 
 
 # %%
-get_ipython().run_line_magic('matplotlib', 'widget')
+# get_ipython().run_line_magic('matplotlib', 'widget')
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
